@@ -1,0 +1,62 @@
+.navbar{
+    background-color: grey;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    color: blue;
+    justify-content: space-around;
+}
+.navdetails{
+    display: flex;
+    width: 700px;
+justify-content: space-around;
+}
+.icon{
+    font-size: xx-large;
+   background-color: white;
+    border-radius: 90px;
+    color: black;
+}
+.number{
+margin-top: -40px;
+font-size: small;
+color: red;
+}
+@media only screen and (max-width: 600px)  and (Min-width:200px)  {
+    .navdetails{
+      width: 200px;
+      font-size: small;  
+    }
+    .welcome{
+        font-size: x-small;
+    }
+    .header{
+    width: 500px;
+}
+.image{
+    width: 300px;
+}
+}
+@media only screen and (max-width: 800px)  and (Min-width:600px) {
+.navdetails{
+    width: 400px;
+}
+.welcome{
+    width: 500px;
+
+}
+}
+@media only screen and (max-width: 1300px)  and (Min-width:800px) {
+.navdetails{
+    width: 700px;
+}
+.welcome{
+    width: 700px;
+
+}
+.header{
+    width: 300px;
+}
+}

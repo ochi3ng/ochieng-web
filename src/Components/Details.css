@@ -1,0 +1,22 @@
+.header{
+    width: 300px;
+}
+.image{
+    width: 200px;
+    height: 200px;
+}
+.title{
+    font-size: small;
+}
+.details{
+ padding-top: 70px;
+ width: 100%;   
+display: flex;
+
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.loading{
+  color:red;
+align-items: center;
+}
